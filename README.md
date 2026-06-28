@@ -1,25 +1,28 @@
-# note-taking-app
+# Note Taking App
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Minimal note-taking app with Markdown support, tags, and localStorage persistence
+Minimal, distraction-free notes with tags, full-text search, Markdown support, and local persistence.
 
 ## Features
-- 📝 Markdown rendering (headings, bold, italic, lists, checkboxes)
-- 🏷️ Tag system with sidebar filter
-- 📌 Pin important notes to the top
-- 🎨 5 note color themes
-- 💾 Auto-saves to localStorage
-- 🔍 Full-text search
-- 👁️ Toggle Edit / Preview mode
+
+- Markdown editor with live preview
+- Tag-based organization
+- Full-text search across all notes
+- Pin important notes to top
+- Auto-save as you type
+- All notes stored in localStorage — works offline, no sign-up needed
+- Dark mode
 
 ## Stack
-`React 18` · `TypeScript` · `localStorage` · `Vite`
 
-## Quick Start
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
