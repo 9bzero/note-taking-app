@@ -1,28 +1,18 @@
-# Note Taking App
+# note-taking-app
 
-Minimal, distraction-free notes with tags, full-text search, Markdown support, and local persistence.
+Simple Markdown notes with tags and search.
 
 ## Features
 
-- Markdown editor with live preview
-- Tag-based organization
-- Full-text search across all notes
-- Pin important notes to top
-- Auto-save as you type
-- All notes stored in localStorage — works offline, no sign-up needed
-- Dark mode
+- Create and edit notes in Markdown (live preview)
+- Tag notes and filter by tag
+- Full-text search
+- Pin important notes
+- Auto-save
+- Dark/light theme
 
-## Stack
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
-
-## Run locally
+## Run
 
 ```bash
 npm install && npm run dev
 ```
-
----
-Made by [9bzero](https://github.com/9bzero)
